@@ -29,14 +29,14 @@ $this->title = 'Proyecto de Tésis';
 
                 <p>Es un protocolo de nivel de aplicación para crear conexiones seguras entre dos sistemas sobre redes no seguras (SSH2).</p>
 
-                <p><a class="btn btn-secundary" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+                
             </div>
             <div class="col-lg-4">
                 <h2>Profibus</h2>
 
                 <p>Es un estándar de red de campo abierto e independiente de proveedores, donde la interfaz de ellos permite amplia aplicación en procesos, fabricación y automatización predial.</p>
 
-                <p><a class="btn btn-secundary" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn btn-secundary" href="http://proyectotesis.test/site/contact">Contactanos &raquo;</a></p>
             </div>
         </div>
 
