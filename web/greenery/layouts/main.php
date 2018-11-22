@@ -3,11 +3,9 @@ use yii\helpers\Html;
 use yii\widgets\Menu;
 use yii\widgets\Breadcrumbs;
 use yii\debug\Toolbar;
-use app\assets\AppAsset;
 
 // You can use the registerAssetBundle function if you'd like
 //$this->registerAssetBundle('app');
-AppAsset::register($this);
 ?>
 <?php $this->beginPage(); ?>
 <!DOCTYPE html>
@@ -21,8 +19,7 @@ AppAsset::register($this);
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<!-- <link rel='stylesheet' type='text/css' href='<?php echo $this->theme->baseUrl; ?>/files/main_style.css' title='wsite-theme-css' />
--->
+<link rel='stylesheet' type='text/css' href='<?php echo $this->theme->baseUrl; ?>/files/main_style.css' title='wsite-theme-css' />
 <?php $this->head(); ?>
 </head>
 <body class='wsite-theme-light tall-header-page wsite-page-index weeblypage-index'>
