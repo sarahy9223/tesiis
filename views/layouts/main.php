@@ -14,7 +14,7 @@ AppAsset::register($this);
 <html>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-<title><?php echo Html::encode($this->title); ?></title>
+<title><?php echo Html::encode($this->title); ?> </title>
 <meta property='og:site_name' content='<?php echo Html::encode($this->title); ?>' />
 <meta property='og:title' content='<?php echo Html::encode($this->title); ?>' />
 <meta property='og:description' content='<?php echo Html::encode($this->title); ?>' />
