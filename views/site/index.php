@@ -7,11 +7,11 @@ $this->title = 'Proyecto de Tésis';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>¡Bienvenidso!</h1>
+        <h1>¡Bienvenidos!</h1>
 
         <p class="lead">Aqui usted podra conocer mas de los protocolos de seguridad Industrial</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Comenzamos</a></p>
+        <p><a class="btn btn-lg btn-success" href="">Comenzamos</a></p>
     </div>
 
     <div class="body-content">

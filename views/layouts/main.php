@@ -66,11 +66,11 @@ AppAsset::register($this);
  <?php echo Menu::widget(array(
         'options' => array('class' => 'nav'),
         'items' => array(
-          array('label' => 'Home', 'url' => array('/site/index')),
-          array('label' => 'About', 'url' => array('/site/about')),
-          array('label' => 'Contact', 'url' => array('/site/contact')),
+          array('label' => 'Inicio', 'url' => array('/site/index')),
+          array('label' => 'Quienes Somos', 'url' => array('/site/about')),
+          array('label' => 'Contactanos', 'url' => array('/site/contact')),
           Yii::$app->user->isGuest ?
-            array('label' => 'Login', 'url' => array('/site/login')) :
+            array('label' => 'Acceder', 'url' => array('/site/login')) :
             array('label' => 'Logout (' . Yii::$app->user->identity->username .')' , 'url' => array('/site/logout')),
         ),
       )); ?>
